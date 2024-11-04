@@ -188,6 +188,10 @@ local button_headings = {
   <h4 class="accordion-header" id="heading{{id}}">
   {{title}}
   </h4>]],
+  ["caution"] = [[
+    <h4 class="accordion-header" id="heading{{id}}">
+    {{title}}
+    </h4>]],
   ["hint"] = [[
   <h4 class="accordion-header" id="heading{{id}}">
   {{title}}
