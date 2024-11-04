@@ -11,6 +11,7 @@ end
 
 local blocks = {
   ["callout"] = "bell",
+  ["caution"] = "alert-triangle",
   ["objectives"] = "none",
   ["challenge"] = "zap",
   ["prereq"] = "check",
@@ -28,6 +29,7 @@ local blocks = {
 
 local block_counts = {
   ["callout"] = 0,
+  ["caution"] = 0,
   ["objectives"] = 0,
   ["challenge"] = 0,
   ["prereq"] = 0,
@@ -189,9 +191,9 @@ local button_headings = {
   {{title}}
   </h4>]],
   ["caution"] = [[
-    <h4 class="accordion-header" id="heading{{id}}">
-    {{title}}
-    </h4>]],
+  <h4 class="accordion-header" id="heading{{id}}">
+  {{title}}
+  </h4>]],
   ["hint"] = [[
   <h4 class="accordion-header" id="heading{{id}}">
   {{title}}
